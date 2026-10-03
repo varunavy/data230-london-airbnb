@@ -24,9 +24,12 @@ figures/     saved figures (PNG)
 |---|---|---|
 | `00_dataset_check_varuna.ipynb` | Varuna | Dataset comparison and selection |
 | `01_cleaning.ipynb` | Varuna | Data quality, cleaning decisions, target `top_rated` |
-| `02_univariate` (planned) | Priya | Multivariate and Presentation slides |
-| `03_relationships` (planned) | Sanjana | Features vs rating, ML direction |
-| `04_cpu_vs_gpu` (planned) | Ngoc | CPU vs GPU (RAPIDS) timing; Tableau dashboard |
+| `02_univariate` | Ngoc | Univariate |
+| `03_bivariate` | Sanjana | Bivariate |
+| `04_multivariate` | Priya | Multivariate | 
+| `05_CPU_GPU_Rapids_Comparison` | Sanjana | CPU_GPU_Rapids_Comparison | 
+| `06_dashboard` | Ngoc | Tableau dashboard |
+| `07_presentation_slides` | Priya | Presentation slides |
 
 ## Working rules
 - Fetch/Pull before you start; commit and push at least once a day.
