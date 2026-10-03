@@ -24,7 +24,7 @@ figures/     saved figures (PNG)
 |---|---|---|
 | `00_dataset_check_varuna.ipynb` | Varuna | Dataset comparison and selection |
 | `01_cleaning.ipynb` | Varuna | Data quality, cleaning decisions, target `top_rated` |
-| `02_univariate` (planned) | Priya | Distributions of single columns |
+| `02_univariate` (planned) | Priya | Multivariate and Presentation slides |
 | `03_relationships` (planned) | Sanjana | Features vs rating, ML direction |
 | `04_cpu_vs_gpu` (planned) | Ngoc | CPU vs GPU (RAPIDS) timing; Tableau dashboard |
 
