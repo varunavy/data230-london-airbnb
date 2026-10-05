@@ -9,8 +9,7 @@
 ## How to run
 1. Clone this repo with GitHub Desktop (File > Clone Repository).
 2. Inside the cloned folder, create a folder named `data` and put `listings.csv.gz` in it. Do not unzip it.
-3. Open `notebooks/01_cleaning.ipynb` in Jupyter and run Kernel > Restart Kernel and Run All Cells. This creates `data/listings_clean.csv`.
-4. In your own notebook, load the cleaned data with `pd.read_csv("../data/listings_clean.csv")`.
+3. Start making your notebooks for univariate ,bivariate and multivariate analysis
 
 ## Folder structure
 ```
@@ -24,9 +23,12 @@ figures/     saved figures (PNG)
 |---|---|---|
 | `00_dataset_check_varuna.ipynb` | Varuna | Dataset comparison and selection |
 | `01_cleaning.ipynb` | Varuna | Data quality, cleaning decisions, target `top_rated` |
-| `02_univariate` (planned) | Priya | Distributions of single columns |
-| `03_relationships` (planned) | Sanjana | Features vs rating, ML direction |
-| `04_cpu_vs_gpu` (planned) | Ngoc | CPU vs GPU (RAPIDS) timing; Tableau dashboard |
+| `02_univariate` | Ngoc | Univariate |
+| `03_bivariate` | Sanjana | Bivariate |
+| `04_multivariate` | Priya | Multivariate | 
+| `05_CPU_GPU_Rapids_Comparison` | Sanjana | CPU_GPU_Rapids_Comparison | 
+| `06_dashboard` | Ngoc | Tableau dashboard |
+| `07_presentation_slides` | Priya | Presentation slides |
 
 ## Working rules
 - Fetch/Pull before you start; commit and push at least once a day.
