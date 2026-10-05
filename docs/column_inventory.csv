@@ -39,7 +39,7 @@ latitude,float64,degrees,0.0,Kept: candidate feature
 longitude,float64,degrees,0.0,Kept: candidate feature
 property_type,str,text / category,0.0,Kept: categorical feature candidate
 room_type,str,text / category,0.0,Kept: categorical feature candidate
-accommodates,int64,date,0.0,Kept for EDA: date
+accommodates,int64,count of guests,0.0,Kept: candidate feature
 bathrooms,float64,count,0.1,Kept: candidate feature
 bathrooms_text,str,text / category,0.1,Kept: categorical feature candidate
 bedrooms,float64,count,25.9,Kept: candidate feature
@@ -101,3 +101,4 @@ bedrooms_missing,int64,1/0 flag,0.0,Created in cleaning
 bedrooms_imp,float64,count,0.0,Created in cleaning
 bathrooms_missing,int64,1/0 flag,0.0,Created in cleaning
 bathrooms_imp,float64,count,0.0,Created in cleaning
+maximum_nights_capped,float64,nights,0.0,Created in cleaning
