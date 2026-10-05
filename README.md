@@ -9,7 +9,7 @@
 ## How to run
 1. Clone this repo with GitHub Desktop (File > Clone Repository).
 2. Inside the cloned folder, create a folder named `data` and put `listings.csv.gz` in it. Do not unzip it.
-3. Download the dataset on your computer and do your analysis
+3. Start making your notebooks for univariate ,bivariate and multivariate analysis
 
 ## Folder structure
 ```
