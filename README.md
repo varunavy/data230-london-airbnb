@@ -9,8 +9,7 @@
 ## How to run
 1. Clone this repo with GitHub Desktop (File > Clone Repository).
 2. Inside the cloned folder, create a folder named `data` and put `listings.csv.gz` in it. Do not unzip it.
-3. Open `notebooks/01_cleaning.ipynb` in Jupyter and run Kernel > Restart Kernel and Run All Cells. This creates `data/listings_clean.csv`.
-4. In your own notebook, load the cleaned data with `pd.read_csv("../data/listings_clean.csv")`.
+3. Download the dataset on your computer and do your analysis
 
 ## Folder structure
 ```
