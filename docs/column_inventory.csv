@@ -1,0 +1,103 @@
+column,type,unit,missing_%,verdict
+id,int64,identifier,0.0,Kept: key (joins to calendar)
+listing_url,str,URL,0.0,Dropped: URL or scrape metadata
+scrape_id,int64,identifier,0.0,Dropped: URL or scrape metadata
+last_scraped,str,date,0.0,Dropped: URL or scrape metadata
+source,str,text / category,0.0,Dropped: URL or scrape metadata
+name,str,text / category,0.0,Kept for EDA: free text
+description,str,text / category,2.3,Kept for EDA: free text
+neighborhood_overview,float64,n/a (empty),100.0,Dropped: 100% empty
+picture_url,str,URL,0.0,Dropped: URL or scrape metadata
+host_id,int64,identifier,0.0,"Kept: identifier, not a feature"
+host_url,str,URL,0.0,Dropped: URL or scrape metadata
+host_profile_id,float64,identifier,0.1,"Kept: identifier, not a feature"
+host_profile_url,str,URL,0.1,Dropped: URL or scrape metadata
+host_name,str,text / category,0.1,Kept for EDA: free text
+host_since,float64,n/a (empty),100.0,Dropped: 100% empty
+hosts_time_as_user_years,float64,years,0.1,Kept: candidate feature
+hosts_time_as_user_months,float64,months,0.1,Kept: candidate feature
+hosts_time_as_host_years,float64,years,0.1,Kept: candidate feature
+hosts_time_as_host_months,float64,months,0.1,Kept: candidate feature
+host_location,str,text / category,24.5,Kept for EDA: free text
+host_about,str,text / category,46.9,Kept for EDA: free text
+host_response_time,float64,n/a (empty),100.0,Dropped: 100% empty
+host_response_rate,float64,n/a (empty),100.0,Dropped: 100% empty
+host_acceptance_rate,float64,n/a (empty),100.0,Dropped: 100% empty
+host_is_superhost,str,t/f flag,0.1,Kept for EDA only: leakage
+host_thumbnail_url,float64,n/a (empty),100.0,Dropped: 100% empty
+host_picture_url,str,URL,0.1,Dropped: URL or scrape metadata
+host_neighbourhood,float64,n/a (empty),100.0,Dropped: 100% empty
+host_listings_count,float64,count of listings,0.1,Kept: candidate feature
+host_total_listings_count,float64,n/a (empty),100.0,Dropped: 100% empty
+host_verifications,float64,n/a (empty),100.0,Dropped: 100% empty
+host_has_profile_pic,str,t/f flag,0.1,Kept: categorical feature candidate
+host_identity_verified,str,t/f flag,0.1,Kept: categorical feature candidate
+neighbourhood,float64,n/a (empty),100.0,Dropped: 100% empty
+neighbourhood_cleansed,str,text / category,0.0,Kept: categorical feature candidate
+neighbourhood_group_cleansed,float64,n/a (empty),100.0,Dropped: 100% empty
+latitude,float64,degrees,0.0,Kept: candidate feature
+longitude,float64,degrees,0.0,Kept: candidate feature
+property_type,str,text / category,0.0,Kept: categorical feature candidate
+room_type,str,text / category,0.0,Kept: categorical feature candidate
+accommodates,int64,date,0.0,Kept for EDA: date
+bathrooms,float64,count,0.1,Kept: candidate feature
+bathrooms_text,str,text / category,0.1,Kept: categorical feature candidate
+bedrooms,float64,count,25.9,Kept: candidate feature
+beds,float64,count,35.1,Kept: candidate feature
+amenities,str,text / category,0.0,Kept for EDA: free text
+price,float64,GBP,32.8,Converted to number (GBP); see price_capped
+price_quote_checkin_date,str,date,30.1,Kept for EDA: date
+price_quote_checkout_date,str,date,30.1,Kept for EDA: date
+price_quote_total_price,float64,GBP,32.8,Kept: candidate feature
+price_quote_price_per_night,float64,GBP,32.8,Kept: candidate feature
+price_quote_raw,str,GBP (stored as text),30.1,Kept for EDA: free text
+minimum_nights,float64,nights,0.0,Kept: candidate feature
+maximum_nights,float64,nights,0.0,Kept: candidate feature
+minimum_minimum_nights,float64,nights,0.0,Kept: candidate feature
+maximum_minimum_nights,float64,nights,0.0,Kept: candidate feature
+minimum_maximum_nights,float64,nights,0.0,Kept: candidate feature
+maximum_maximum_nights,float64,nights,0.0,Kept: candidate feature
+minimum_nights_avg_ntm,float64,nights,0.0,Kept: candidate feature
+maximum_nights_avg_ntm,float64,nights,0.0,Kept: candidate feature
+calendar_updated,float64,n/a (empty),100.0,Dropped: 100% empty
+has_availability,str,t/f flag,0.9,Kept: categorical feature candidate
+availability_30,int64,days,0.0,Kept: candidate feature
+availability_60,int64,days,0.0,Kept: candidate feature
+availability_90,int64,days,0.0,Kept: candidate feature
+availability_365,int64,days,0.0,Kept: candidate feature
+calendar_last_scraped,str,date,0.0,Dropped: URL or scrape metadata
+number_of_reviews,int64,count of reviews,0.0,Kept: candidate feature
+number_of_reviews_ltm,int64,count of reviews,0.0,Kept: candidate feature
+number_of_reviews_l30d,int64,count of reviews,0.0,Kept: candidate feature
+availability_eoy,int64,days,0.0,Kept: candidate feature
+number_of_reviews_ly,int64,count of reviews,0.0,Kept: candidate feature
+estimated_occupancy_l365d,int64,nights (estimated),0.0,Kept: candidate feature
+estimated_revenue_l365d,float64,GBP,32.8,Kept: candidate feature
+first_review,str,date,23.7,Kept for EDA: date
+last_review,str,date,23.7,Kept for EDA: date
+review_scores_rating,float64,rating (0 to 5),23.7,Kept: source of target
+review_scores_accuracy,float64,rating (0 to 5),23.7,Kept for EDA only: leakage
+review_scores_cleanliness,float64,rating (0 to 5),23.7,Kept for EDA only: leakage
+review_scores_checkin,float64,rating (0 to 5),23.7,Kept for EDA only: leakage
+review_scores_communication,float64,rating (0 to 5),23.7,Kept for EDA only: leakage
+review_scores_location,float64,rating (0 to 5),23.7,Kept for EDA only: leakage
+review_scores_value,float64,rating (0 to 5),23.7,Kept for EDA only: leakage
+license,float64,n/a (empty),100.0,Dropped: 100% empty
+instant_bookable,float64,n/a (empty),100.0,Dropped: 100% empty
+calculated_host_listings_count,int64,count of listings,0.0,Kept: candidate feature
+calculated_host_listings_count_entire_homes,int64,count of listings,0.0,Kept: candidate feature
+calculated_host_listings_count_private_rooms,int64,count of listings,0.0,Kept: candidate feature
+calculated_host_listings_count_shared_rooms,int64,count of listings,0.0,Kept: candidate feature
+reviews_per_month,float64,reviews per month,23.7,Kept: candidate feature
+price_capped,float64,GBP,32.8,Created in cleaning
+top_rated,Int64,1/0 flag,23.7,Created: target
+size_extreme,int64,1/0 flag,0.0,Created in cleaning
+minimum_nights_capped,float64,nights,0.0,Created in cleaning
+price_capped_missing,int64,1/0 flag,0.0,Created in cleaning
+price_capped_imp,float64,GBP,0.0,Created in cleaning
+beds_missing,int64,1/0 flag,0.0,Created in cleaning
+beds_imp,float64,count,0.0,Created in cleaning
+bedrooms_missing,int64,1/0 flag,0.0,Created in cleaning
+bedrooms_imp,float64,count,0.0,Created in cleaning
+bathrooms_missing,int64,1/0 flag,0.0,Created in cleaning
+bathrooms_imp,float64,count,0.0,Created in cleaning
