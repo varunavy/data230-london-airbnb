@@ -1,0 +1,14 @@
+Step,Seconds,Mode,Machine
+Load CSV,1.552,CPU,macOS-26.6.2-arm64-arm-64bit
+Summary statistics (describe),0.083,CPU,macOS-26.6.2-arm64-arm-64bit
+"Column audit (missing %, unique counts)",0.195,CPU,macOS-26.6.2-arm64-arm-64bit
+Drop empty and metadata columns,0.0,CPU,macOS-26.6.2-arm64-arm-64bit
+Text placeholders to missing,0.004,CPU,macOS-26.6.2-arm64-arm-64bit
+"Price: text to number, cap at 99th percentile",0.017,CPU,macOS-26.6.2-arm64-arm-64bit
+Recover bathrooms from text (regex),0.05,CPU,macOS-26.6.2-arm64-arm-64bit
+Duplicate check (without id),0.172,CPU,macOS-26.6.2-arm64-arm-64bit
+"Target: zero ratings to missing, create top_rated",0.001,CPU,macOS-26.6.2-arm64-arm-64bit
+"Size checks, flags, and night caps",0.003,CPU,macOS-26.6.2-arm64-arm-64bit
+Fill missing with room-type median (group by),0.017,CPU,macOS-26.6.2-arm64-arm-64bit
+Save cleaned CSV,1.82,CPU,macOS-26.6.2-arm64-arm-64bit
+Total,3.914,CPU,macOS-26.6.2-arm64-arm-64bit
