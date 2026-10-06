@@ -1,0 +1,9 @@
+Step,Seconds (CPU)
+Load CSV,2.391
+"Fig 11: data prep (host bands, tenure, flags)",0.012
+Fig 11: draw chart,0.14
+"Fig 12: data prep (parse JSON, count, top 15)",1.016
+Fig 12: draw chart,0.173
+Fig 11: total (prep + draw),0.152
+Fig 12: total (prep + draw),1.189
+Total,3.732
