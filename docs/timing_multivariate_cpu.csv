@@ -1,0 +1,20 @@
+Step,Kind,Seconds,Mode,Machine
+Load cleaned CSV,pandas,1.637,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Create rated subset,pandas,0.072,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+"Feature engineering (grouping, relative price, logs)",pandas,0.037,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Amenity JSON parsing,cpu-only,0.399,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Amenity indicator matrix,cpu-only,0.585,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Spearman correlation matrix,pandas,0.194,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Borough × host-type aggregation,pandas,0.086,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Train/test split,pandas,0.024,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Add feature groups one at a time (6 fits),cpu-only,20.799,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Fixed-facts-only and host-choices-only (2 fits),cpu-only,8.311,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Straight-line comparison,cpu-only,0.459,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+"95% intervals for the score (1,000 resamples)",cpu-only,9.485,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+5-fold cross-validation (3 sets of features: 15 fits),cpu-only,66.404,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Shuffling test: 6 groups × 5 repeats,cpu-only,1.229,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Shuffling test: every single feature × 3 repeats,cpu-only,7.152,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Response curves (4 features × 4 host groups),cpu-only,2.588,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Subtotal: pandas steps (cuDF-comparable),pandas,2.05,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+"Subtotal: CPU-only steps (JSON, scikit-learn)",cpu-only,117.411,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
+Total,all,119.461,CPU,macOS-26.5.1-arm64-arm-64bit-Mach-O
