@@ -1,27 +1,27 @@
 Step,Seconds (CPU)
-Load CSV,2.934
-"Fig 5: data prep (rated listings, class shares)",0.048
-Fig 5: draw chart,0.241
-"Fig 6: data prep (priced listings, log)",0.002
-Fig 6: draw chart,0.4
-Fig 7: data prep (room and property shares),0.014
-Fig 7: draw chart,0.177
-Fig 8: data prep (size buckets),0.151
-Fig 8: draw chart,0.615
-Fig 9: data prep (borough counts),0.004
-Fig 9: draw chart,0.227
-"Fig 10: data prep (nights, availability, review bands)",0.023
-Fig 10: draw chart,0.173
-"Fig 11: data prep (host bands, tenure)",0.003
-Fig 11: draw chart,0.12
-"Fig 12: data prep (parse JSON, count, top 15)",0.689
-Fig 12: draw chart,0.18
-Fig 5: total (prep + draw),0.289
-Fig 6: total (prep + draw),0.402
-Fig 7: total (prep + draw),0.191
-Fig 8: total (prep + draw),0.766
-Fig 9: total (prep + draw),0.231
-Fig 10: total (prep + draw),0.196
-Fig 11: total (prep + draw),0.123
-Fig 12: total (prep + draw),0.869
-Total,6.001
+Load CSV,2.646
+"Fig 5: data prep (rated listings, class shares)",0.132
+Fig 5: draw chart,0.142
+"Fig 6: data prep (log price, price bands, top-rated share)",0.015
+Fig 6: draw chart,0.172
+"Fig 7: data prep (room and property shares, top-rated share)",0.022
+Fig 7: draw chart,0.124
+"Fig 8: data prep (size buckets, top-rated share)",0.22
+Fig 8: draw chart,0.107
+"Fig 9: data prep (borough counts, top-rated share)",0.009
+Fig 9: draw chart,0.279
+"Fig 10: data prep (nights, availability, review bands, top-rated share)",0.023
+Fig 10: draw chart,0.093
+"Fig 11: data prep (host bands, tenure, top-rated share)",0.083
+Fig 11: draw chart,0.091
+"Fig 12: data prep (parse JSON, count bands, with/without gaps)",1.186
+Fig 12: draw chart,0.208
+Fig 5: total (prep + draw),0.274
+Fig 6: total (prep + draw),0.187
+Fig 7: total (prep + draw),0.146
+Fig 8: total (prep + draw),0.327
+Fig 9: total (prep + draw),0.288
+Fig 10: total (prep + draw),0.116
+Fig 11: total (prep + draw),0.174
+Fig 12: total (prep + draw),1.394
+Total,5.552
